@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="content">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+
+	<title>{% get title %}</title>
+</head>
+
+<body>
+	<div>
+		<div class="container">
+            <header>
+                <div>
+                    <ul class="nav">
+                        <li>
+                            <a href="page1">Главная</a>
+                        </li>
+                        <li>
+                            <a href="page2">Кремль</a>
+                        </li>
+                        <li>
+                            <a href="page3">Памятники</a>
+                        </li>
+                        <li>
+                            <a href="page4">Гостиницы</a>
+                        </li>
+                        <li>
+                            <a href="page5">Кафе</a>
+                        </li>
+                        <li>
+                            <a href="page6">Рюриково Городище</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                {% get content %}
+            </main>
+            <aside>
+                
+            </aside>
+            <footer>
+                <ul class="nav">
+                    <li>
+                        <a href="page1">Главная</a>
+                    </li>
+                    <li>
+                        <a href="page2">Кремль</a>
+                    </li>
+                    <li>
+                        <a href="page3">Памятники</a>
+                    </li>
+                    <li>
+                        <a href="page4">Гостиницы</a>
+                    </li>
+                    <li>
+                        <a href="page5">Кафе</a>
+                    </li>
+                    <li>
+                        <a href="page6">Рюриково Городище</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+	</div>
+</body>
+
+</html>

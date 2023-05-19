@@ -1,0 +1,64 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.title {
+    text-align: center;
+}
+
+li{
+    color: #fff
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+ul {
+    padding: 1rem 5%;
+    list-style: none;
+    border-radius: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc((100% / 2) - 0.5rem);
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+p {
+    font-size: 22px;
+}
+
+.head-img {
+    max-width: 50%;
+    float: right;
+    margin: 0 0 20px 20px;
+    border-radius: 1rem;
+}
+
+.text {
+    padding: 20px;
+}
